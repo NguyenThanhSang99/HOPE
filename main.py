@@ -7,7 +7,7 @@ def main():
     graph_path = "data/nodes.edgelist"
     embedding_path = "data/embedding.txt"
     graph.create_graph(filename=graph_path)
-    dimension = 6
+    dimension = 128
 
     model = HOPE(graph=graph, dimension=dimension)
 
